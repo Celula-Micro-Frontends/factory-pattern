@@ -1,0 +1,21 @@
+<div class="info-card">
+  <div class="card-image">
+    <img
+      src="https://worldaviationato.com/backend/wp-content/uploads/1-20-1024x538.jpg"
+      alt="Transporte"
+    />
+  </div>
+
+  <div class="card-content">
+    <h3 class="card-title">Transporte Aéreo</h3>
+
+    <ul class="card-list">
+      <li><strong>Origen:</strong> {{ shipment.origin }}</li>
+      <li><strong>Destino:</strong> {{ shipment.destination }}</li>
+      <li><strong>Peso:</strong> {{ shipment.weight }} Kg</li>
+      <li><strong>Costo:</strong> {{ calculateCost() }}.000$</li>
+      <li><strong>Deadline:</strong> {{ getEstimatedDays() }} días</li>
+      <li><strong>Tipo de avión:</strong> {{ planeType }}</li>
+    </ul>
+  </div>
+</div>

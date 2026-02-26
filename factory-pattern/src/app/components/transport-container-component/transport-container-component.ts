@@ -27,7 +27,7 @@ export class TransportContainerComponent {
     this.changeTransport('road');
   }
 
-  changeTransport = (type: 'road' | 'sea') => {
+  changeTransport = (type: 'road' | 'sea' | 'air') => {
     const factory = this.selector.getFactory(type);
     this.component = factory.create();
   };
