@@ -1,0 +1,8 @@
+<section class="button-section">
+  <button class="btn btn-road" (click)="changeTransport('road')">Carretera</button>
+  <button class="btn btn-sea" (click)="changeTransport('sea')">Marítimo</button>
+</section>
+
+<section class="cards-section">
+  <ng-container *ngComponentOutlet="component; inputs: componentInputs"> </ng-container>
+</section>

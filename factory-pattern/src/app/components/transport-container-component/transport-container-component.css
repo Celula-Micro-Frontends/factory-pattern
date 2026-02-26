@@ -1,0 +1,45 @@
+.button-section {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 0.7rem 1.4rem;
+    border-radius: 999px;
+    border: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+/* Variantes */
+.btn-road {
+    background-color: oklch(51.01% 0.274 263.83);
+    color: white;
+}
+
+.btn-sea {
+    background-color: oklch(53.18% 0.28 296.97);
+    color: white;
+}
+
+.btn-air {
+    background-color: oklch(47.66% 0.246 305.88);
+    color: white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}

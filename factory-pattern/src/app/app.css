@@ -1,0 +1,30 @@
+/* Layout general */
+* {
+    box-sizing: border-box;
+}
+
+.app-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #f8fafc, #e2e8f0);
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+/* ================= HEADER ================= */
+
+.app-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.app-header h1 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1e293b;
+    margin-bottom: 0.5rem;
+}
+
+.subtitle {
+    color: #64748b;
+    font-size: 1rem;
+}

@@ -1,0 +1,21 @@
+<div class="info-card">
+  <div class="card-image">
+    <img
+      src="https://www.partidalogistics.com/wp-content/uploads/2025/09/buque-de-carga.jpg"
+      alt="Transporte"
+    />
+  </div>
+
+  <div class="card-content">
+    <h3 class="card-title">Transporte Marítimo</h3>
+
+    <ul class="card-list">
+      <li><strong>Origen:</strong> {{ shipment.origin }}</li>
+      <li><strong>Destino:</strong> {{ shipment.destination }}</li>
+      <li><strong>Peso:</strong> {{ shipment.weight }} Kg</li>
+      <li><strong>Costo:</strong> {{ calculateCost() }}.000$</li>
+      <li><strong>Deadline:</strong> {{ getEstimatedDays() }} días</li>
+      <li><strong>Tipo de barco:</strong> {{ shipType }}</li>
+    </ul>
+  </div>
+</div>

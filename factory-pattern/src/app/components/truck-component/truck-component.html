@@ -1,0 +1,21 @@
+<div class="info-card">
+  <div class="card-image">
+    <img
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRALuqdUK0IW9dZXy-tkVmff2oEUOArJ4WniA&s"
+      alt="Transporte"
+    />
+  </div>
+
+  <div class="card-content">
+    <h3 class="card-title">Transporte Marítimo</h3>
+
+    <ul class="card-list">
+      <li><strong>Origen:</strong> {{ shipment.origin }}</li>
+      <li><strong>Destino:</strong> {{ shipment.destination }}</li>
+      <li><strong>Peso:</strong> {{ shipment.weight }} Kg</li>
+      <li><strong>Costo:</strong> {{ calculateCost() }}.000$</li>
+      <li><strong>Deadline:</strong> {{ getEstimatedDays() }} días</li>
+      <li><strong>Tipo de vehículo:</strong> {{ busType }}</li>
+    </ul>
+  </div>
+</div>
